@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [IdentifyNewBikes]">
+  <test name="GoogleSignIn(failed)">
+    <classes>
+      <class name="TestUsingTestNG.TestBase">
+        <methods>
+          <include name="exitDriver"/>
+          <include name="closeDriver"/>
+          <include name="closeDriver"/>
+          <include name="closeDriver"/>
+          <include name="initBrowser"/>
+          <include name="initializeTest"/>
+          <include name="initializeTest"/>
+          <include name="initializeTest"/>
+        </methods>
+      </class> <!-- TestUsingTestNG.TestBase -->
+      <class name="TestUsingTestNG.GoogleSignInTest">
+        <methods>
+          <include name="testGoogleSignIn"/>
+        </methods>
+      </class> <!-- TestUsingTestNG.GoogleSignInTest -->
+    </classes>
+  </test> <!-- GoogleSignIn(failed) -->
+</suite> <!-- Failed suite [IdentifyNewBikes] -->
